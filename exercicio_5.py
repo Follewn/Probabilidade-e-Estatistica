@@ -18,6 +18,7 @@ Original file is located at
 '''a = float(input('Digite o valor do ângulo a: '))
 b = float(input('Digite o valor do ângulo b: '))
 c = float(input('Digite o valor do ângulo c: '))
+# 90° =  ao angulo reto, atribuindo os angulos em cada um de seus tipos triangulos
 if a == 90 or b == 90 or c == 90:
   print('Triângulo Retângulo')
 elif a > 90 or b > 90 or c > 90:
